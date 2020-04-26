@@ -4,29 +4,24 @@ This folder contains stimuli used in the ABC@UofSC project for language task fMR
 
 ## Folders and files for 'fMRI_passage' task
 
-1. listening_texts.csv
+- listening_texts.csv
+    - Folder with materials for the listening task.
 
-Folder with materials for the listening task.
+- Story_Questions.docx
+    - Questions asked at the end of the passage with choices.
 
-2. Story_Questions.docx
+- recordings
+    - Audio (.wav) files of the actual recordings.
 
-Questions asked at the end of the passage with choices.
+- texts
+    - Text files of the narratives.
 
-3. recordings
-
-Audio (.wav) files of the actual recordings.
-
-4. texts
-
-Text files of the narratives.
-
-5. timestamps
-
-Onset of every word and every sentence in milliseconds since the beginning of the passage. Contains word, onset time, and offset time columns. @ indicates start of a new sentence.
+- timestamps
+    - Onset of every word and every sentence in milliseconds since the beginning of the passage. Contains word, onset time, and offset time columns. @ indicates start of a new sentence.
 
 ## Folders and files for 'fMRI_fam' task
 
-1. master_word
+- master_word
 
 Listing of each word, nonword, and picture used in the task. Various categories are marked using a coding system, also used in the Eprime experiment scripts, in order to make analysis convenient.
 
@@ -37,17 +32,14 @@ Listing of each word, nonword, and picture used in the task. Various categories 
     3. master_word_Nonwords.csv
         - Listing and psycholinguistic properties of the nonwords.
 
-2. pics
+- pics
+    - Picture stimuli organized by category subfolders.
 
-Picture stimuli organized by category subfolders.
+- pic_stimuli.csv
+    - Information about the picture stimuli.
 
-3. pic_stimuli.csv
-
-Information about the picture stimuli.
-
-4. eprime_scripts
-
-Sample experimental scripts used to present stimuli.
+- eprime_scripts
+    - Sample experimental scripts used to present stimuli.
 
 ## Listening Task ('fMRI_passage')
 

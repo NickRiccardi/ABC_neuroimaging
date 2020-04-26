@@ -8,7 +8,7 @@ This folder contains stimuli used in the ABC@UofSC project for language task fMR
 
 Folder with materials for the listening task.
 
-2. Story_Questions.txt
+2. Story_Questions.docx
 
 Questions asked at the end of the passage with choices.
 

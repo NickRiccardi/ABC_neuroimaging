@@ -7,7 +7,10 @@ This is a series of EPrime (https://pstnet.com/products/e-prime/), Python, AFNI 
 ## Recommended Software
 
 Python 2.7 or later
+
 AFNI_20.1.02 or later
+
 FreeSurfer v6.0.0, or Freesurfer/2020-beta module if using the Hyperion Cluster
+
 Access to Hyperion supercomputing cluster
 

@@ -26,27 +26,26 @@ Onset of every word and every sentence in milliseconds since the beginning of th
 
 ## Folders and files for 'fMRI_fam' task
 
-1. master_word_lemmatized_list.csv
+1. master_word
 
 Listing of each word, nonword, and picture used in the task. Various categories are marked using a coding system, also used in the Eprime experiment scripts, in order to make analysis convenient.
 
-2. master_word_Codes_Organize.csv
+    1. master_word_lemmatized_list.csv
+        - Main word (and picture) list with associated codes and many psycholinguistic properties taken from ELP and other sources.
+    2. master_word_Codes_Organize.csv
+        - A summary of all the various big and small categories built into the stimuli, and their codes.
+    3. master_word_Nonwords.csv
+        - Listing and psycholinguistic properties of the nonwords.
 
-A summary of all the various big and small categories built into the stimuli, and their codes.
-
-3. master_word_Nonwords.csv
-
-Listing and psycholinguistic properties of the nonwords.
-
-4. pics
+2. pics
 
 Picture stimuli organized by category subfolders.
 
-5. pic_stimuli.csv
+3. pic_stimuli.csv
 
 Information about the picture stimuli.
 
-6. eprime_scripts
+4. eprime_scripts
 
 Sample experimental scripts used to present stimuli.
 

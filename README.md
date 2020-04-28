@@ -53,7 +53,7 @@ The .jpg files are used to visually inspect the success of @SSwarper, while anat
 
 #### freesurfer_array.sh
 
-This is a SLURM batch array submission script calling FreeSurfer's 'recon-all' command (https://surfer.nmr.mgh.harvard.edu/fswiki/recon-all), which performs all of FreeSurfer's standard cortical reconstruction process using a subject's anatomical scan (assumed to be named 'T1.nii'). The script enters each desired subject's data directory (named '1001', '1002', etc.), creates a new FS output directory (e.g. '1001_FS'), and places the output into that directory (example output files listed here: https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles). 'parallel' and 'openmp #' must be specified here in order to use multiple Hyperion cores. The # following openmp should match the number of cores you wish to use in the batch script.
+This is a SLURM batch array submission script calling FreeSurfer's 'recon-all' command (https://surfer.nmr.mgh.harvard.edu/fswiki/recon-all), which performs all of FreeSurfer's standard cortical reconstruction processes using a subject's anatomical scan (assumed to be named 'T1.nii'). The script enters each desired subject's data directory (named '1001', '1002', etc.), creates a new FS output directory (e.g. '1001_FS'), and places the output into that directory (example output files listed here: https://surfer.nmr.mgh.harvard.edu/fswiki/ReconAllOutputFiles). 'parallel' and 'openmp #' must be specified here in order to use multiple Hyperion cores. The # following openmp should match the number of cores you wish to use in the batch script.
 
 ### Step #3: Decide desired analysis
 

@@ -1,0 +1,20 @@
+﻿Main Category,Total N,Num Classes,N per class,Classes,Notes
+Scenes,30,6,5,"forest, canyon, building, livingroom, library, supermarket","3 indoor, 3 outdoor categories, 2 nature, 4 non-nature"
+Faces,30,5,6,"happy, sad, angry, fearful, neutral","Each emotion has 6 faces, 3 male and 3 female, with young, middle, and old age each"
+Actions,30,2,15,"manner verb, instrument verb",
+Objects,35,7,5,"mammal, fruit/veg, bird, musical instrument, vehicle, tool, nonsense",Nonsese objects are real-looking things that have no names or recognizable functions
+Unique,30,2,15,"famous people, famous places",
+Scrambled,25,,,,"These are 'interwoven' objects created by intermixing grids of objects from a single category, while maintaining correct tile location"
+Total,180,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

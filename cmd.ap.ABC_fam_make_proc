@@ -3,17 +3,14 @@
 # created by uber_subject.py: version 1.2 (April 5, 2018)
 # creation date: Fri Feb 21 12:38:46 2020
 
-# set subject and group identifiers
-
-set gname = ABC_conc_abs
+### recommended base template is MNI152, if you change the base template, you must also specify a different base template in SSwarp_array.sh
 set btemplate = MNI152_2009_template_SSW.nii.gz
+### set path to the base template you'd like to use
 set tpath = /home/riccardn/data/ABC
+### set the subjects that you'd like to produce proc scripts for
 foreach subjnum (1006 1007 1008 1009 1010 1011 1012 1014 1015 1016 1018 1019 1020 1021 1022 1023 1024 1026 1027 1028 1029 1030 1032 1033 1035 1036 1037 1038 1039 1040 1041 1042 1044 1045 1046 1047 1048 1049 1050 )
 	set subj  = ABC_${subjnum}
-	#set subjnum = 1002
-	#if( "$tpath" == "" ) exit 1
-
-	# set data directory
+	# set data directory (in this case, the directories of each subject)
 	set top_dir = /home/riccardn/data/ABC/$subjnum
 	# run afni_proc.py to create a single subject processing script
 	afni_proc.py -subj_id $subj                                                 \

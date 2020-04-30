@@ -19,8 +19,8 @@ subj_list = ['1011','1012','1014','1015','1016','1018','1019','1020','1021',
 """
 AM_var = 'Freq'
 
-#read in master word list file found in refer to /ABC_neuroimaging/stimuli_and_design/master_word/
-master_word = pd.read_csv('masterword_clean.csv', header=0)
+#read in master word list file found in /ABC_neuroimaging/stimuli_and_design/master_word/
+master_word = pd.read_csv('master_word_lemmatized_list.csv', header=0)
 master_word = master_word[['word',AM_var]]
 
 """

@@ -20,8 +20,6 @@ stim_subj = pd.DataFrame(columns = ['word'])
 - refer to /ABC_neuroimaging/stimuli_and_design/master_word/ for item list
 """
 stimsearch = ['work']
-stim_df = {stim: pd.DataFrame() for stim in stimsearch}
-
 
 #read in the subject data
 for subj in subj_list:

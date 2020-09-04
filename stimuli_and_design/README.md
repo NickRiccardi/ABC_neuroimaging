@@ -1,6 +1,6 @@
 # Stimuli and Design
 
-This folder contains stimuli used in the ABC@UofSC project for language task fMRI and EEG. There were two tasks: passage listening and word reading.
+This folder contains stimuli used in the ABC@UofSC project for language task fMRI and EEG. There were two tasks: passage listening and word reading. Pictures and audio files can be found at: https://osf.io/buk34/
 
 ## Folders and files for 'fMRI_passage' task
 
@@ -9,9 +9,6 @@ This folder contains stimuli used in the ABC@UofSC project for language task fMR
 
 - Story_Questions.docx
     - Questions asked at the end of the passage with choices.
-
-- recordings
-    - Audio (.wav) files of the actual recordings.
 
 - texts
     - Text files of the narratives.
@@ -31,9 +28,6 @@ Listing of each word, nonword, and picture used in the task. Various categories 
         - A summary of all the various big and small categories built into the stimuli, and their codes.
     3. master_word_Nonwords.csv
         - Listing and psycholinguistic properties of the nonwords.
-
-- pics
-    - Picture stimuli organized by category subfolders.
 
 - pic_stimuli.csv
     - Information about the picture stimuli.
